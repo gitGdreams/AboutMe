@@ -1,0 +1,89 @@
+#greeting {
+    background: linear-gradient(180deg, #001F3F 20%, rgba(58,109,140,1) 89%, rgba(106,154,176,1) 100%);
+}
+
+#greeting > div {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.anim-typewriter {
+    position: relative;
+    top: 50%;  
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.anim-typewriter{
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+               blinkTextCursor 700ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 11.5em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  #intro h1 {
+    color: #161D6F;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #intro p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  hr {
+    border-top: dotted #154575 thick;
+    width: 10%;
+    margin: 50px auto;
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+#qualifications h3 {
+  color: #161D6F;
+  font-weight: bold;
+}
+
+#qualifications li {
+  font-weight: bolder;
+}
+
+#projects {
+  background-color: #001F3F;
+}
+
+#projects h2 {
+  color: #ffffff;
+}
+
+#projects img {
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+#projects h5 {
+  color: white;
+}
+
+#projects p {
+  color: white;
+}
+
+#projects a {
+  color: rgb(119, 214, 243);
+  text-decoration: none;
+}
